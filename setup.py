@@ -9,7 +9,7 @@ from setuptools import setup
 
 HERE = osp.abspath(osp.dirname(__file__))
 sys.path.insert(0, HERE)
-import pibooth_google_photo as plugin  # nopep8 : import shall be done after adding setup to paths
+import pibooth_nextcloud-upload as plugin  # nopep8 : import shall be done after adding setup to paths
 
 
 def main():
